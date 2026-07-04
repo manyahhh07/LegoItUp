@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🧱 LegoItUp
+#  LegoItUp
 
 ### Transform any object into a buildable LEGO model using AI, then assemble it in an immersive 3D experience.
 
@@ -10,13 +10,13 @@
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-**🚀 Built with React • Three.js • MediaPipe • AI • WebGL • Physics**
+** Built with React • Three.js • MediaPipe • AI • WebGL • Physics**
 
 </div>
 
 ---
 
-## ✨ Overview
+##  Overview
 
 **LegoItUp** is an AI-powered interactive web application that transforms real-world objects into buildable LEGO creations.
 
@@ -26,15 +26,15 @@ Instead of static instructions, LegoItUp turns building into a fun and immersive
 
 ---
 
-## 🎥 Demo
+##  Demo
 
-> 🚧 Coming Soon
+>  Coming Soon
 
 **Live Demo:** *(Coming Soon)*
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
 > Screenshots/GIFs will be added as development progresses.
 
@@ -54,7 +54,7 @@ Completed LEGO Model
 
 ---
 
-# 🌟 Features
+#  Features
 
 ### 📷 AI Object Recognition
 
@@ -65,7 +65,7 @@ Completed LEGO Model
 
 ---
 
-### 🧱 LEGO Model Generation
+###  LEGO Model Generation
 
 - Converts objects into LEGO-style voxel models
 - Intelligent brick placement
@@ -74,7 +74,7 @@ Completed LEGO Model
 
 ---
 
-### 🎮 Interactive Build Mode
+###  Interactive Build Mode
 
 - Build your model one brick at a time
 - Magnetic snapping
@@ -84,7 +84,7 @@ Completed LEGO Model
 
 ---
 
-### ✋ Hand Tracking
+###  Hand Tracking
 
 Control the experience using your hands.
 
@@ -95,7 +95,7 @@ Control the experience using your hands.
 
 ---
 
-### ⚡ Cinematic Animations
+###  Cinematic Animations
 
 - LEGO bricks fly into place
 - Exploded assembly view
@@ -106,7 +106,7 @@ Control the experience using your hands.
 
 ---
 
-### 💥 Free Play
+###  Free Play
 
 After completing your build you can
 
@@ -119,7 +119,7 @@ After completing your build you can
 
 ---
 
-# 🛠️ Tech Stack
+#  Tech Stack
 
 ### Frontend
 
@@ -155,7 +155,7 @@ After completing your build you can
 
 ---
 
-# 🚀 Roadmap
+#  Roadmap
 
 - [x] Project setup
 - [ ] Landing page
@@ -173,7 +173,7 @@ After completing your build you can
 
 ---
 
-# 📂 Project Structure
+#  Project Structure
 
 ```
 src/
@@ -192,7 +192,7 @@ src/
 
 ---
 
-# 🎯 Future Ideas
+#  Future Ideas
 
 - Multi-image 3D scanning
 - Export LEGO instructions as PDF
@@ -205,7 +205,7 @@ src/
 
 ---
 
-# 💡 Inspiration
+#  Inspiration
 
 LegoItUp combines inspiration from
 
@@ -220,7 +220,7 @@ while creating an entirely new way to build digital LEGO creations.
 
 ---
 
-# ⚙️ Installation
+#  Installation
 
 ```bash
 git clone https://github.com/manyahhh07/LegoItUp.git
@@ -234,7 +234,7 @@ npm run dev
 
 ---
 
-# 🤝 Contributing
+#  Contributing
 
 Contributions, ideas, and feature suggestions are always welcome.
 
@@ -242,7 +242,7 @@ Feel free to open an issue or submit a pull request.
 
 ---
 
-# 📜 License
+# License
 
 This project is licensed under the MIT License.
 
@@ -250,8 +250,8 @@ This project is licensed under the MIT License.
 
 <div align="center">
 
-### ⭐ If you like this project, consider giving it a star!
+###  If you like this project, consider giving it a star!
 
-**Made with ❤️ by Manya Singh**
+**Made by Manya Singh**
 
 </div>
