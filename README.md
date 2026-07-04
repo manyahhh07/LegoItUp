@@ -1,51 +1,257 @@
-# Brickify AI
+<div align="center">
 
-Turn any photo into an interactive LEGO model.
+# 🧱 LegoItUp
 
-## Quick Start
+### Transform any object into a buildable LEGO model using AI, then assemble it in an immersive 3D experience.
 
-```bash
-npm install
-npm run dev
+![Status](https://img.shields.io/badge/Status-In%20Development-blue)
+![React](https://img.shields.io/badge/React-19-61DAFB?logo=react)
+![Three.js](https://img.shields.io/badge/Three.js-WebGL-black?logo=three.js)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript)
+![License](https://img.shields.io/badge/License-MIT-green)
+
+**🚀 Built with React • Three.js • MediaPipe • AI • WebGL • Physics**
+
+</div>
+
+---
+
+## ✨ Overview
+
+**LegoItUp** is an AI-powered interactive web application that transforms real-world objects into buildable LEGO creations.
+
+Simply upload a photo (or scan an object), let AI generate a LEGO-compatible 3D model, and assemble it piece by piece inside a beautiful interactive environment.
+
+Instead of static instructions, LegoItUp turns building into a fun and immersive experience with physics, hand tracking, cinematic animations, and satisfying brick snapping.
+
+---
+
+## 🎥 Demo
+
+> 🚧 Coming Soon
+
+**Live Demo:** *(Coming Soon)*
+
+---
+
+## 📸 Screenshots
+
+> Screenshots/GIFs will be added as development progresses.
+
+```
+Landing Page
+↓
+Object Upload
+↓
+AI LEGO Generation
+↓
+Exploded Build View
+↓
+Interactive Build Mode
+↓
+Completed LEGO Model
 ```
 
+---
 
-## How It Works
+# 🌟 Features
 
-1. **Upload** any photo (or hit "Try Demo")
-2. **Watch** the voxelizer sample your image into a color grid and merge cells into LEGO brick sizes (2×4, 2×2, 1×4, 1×2, 1×1)
-3. **Assembly mode** — bricks fly in from random positions and snap to their grid coordinates. Click the glowing brick to place it.
-4. **Free Play** — once complete, all bricks explode outward with spring physics. Use orbit controls to inspect.
+### 📷 AI Object Recognition
 
-## Stack
+- Upload an image of any object
+- Automatic object detection
+- Background removal
+- Object segmentation
 
-| Layer | Tech |
-|---|---|
-| Framework | React 18 + Vite + TypeScript |
-| 3D | Three.js + React Three Fiber |
-| Animation | @react-spring/three + Framer Motion |
-| Post FX | @react-three/postprocessing (Bloom) |
-| State | Zustand |
-| Lighting | Environment preset + directional + point lights |
+---
 
-## Folder Structure
+### 🧱 LEGO Model Generation
+
+- Converts objects into LEGO-style voxel models
+- Intelligent brick placement
+- Automatic color matching
+- Realistic LEGO proportions
+
+---
+
+### 🎮 Interactive Build Mode
+
+- Build your model one brick at a time
+- Magnetic snapping
+- Ghost placement guides
+- Build progress tracking
+- Smooth camera controls
+
+---
+
+### ✋ Hand Tracking
+
+Control the experience using your hands.
+
+- Pinch to grab bricks
+- Release to place
+- Natural interaction
+- Real-time tracking powered by MediaPipe
+
+---
+
+### ⚡ Cinematic Animations
+
+- LEGO bricks fly into place
+- Exploded assembly view
+- Physics-based interactions
+- Camera fly-throughs
+- Smooth transitions
+- Premium UI animations
+
+---
+
+### 💥 Free Play
+
+After completing your build you can
+
+- Rotate
+- Scale
+- Grab
+- Throw
+- Explode
+- Rebuild
+
+---
+
+# 🛠️ Tech Stack
+
+### Frontend
+
+- React
+- Vite
+- TypeScript
+
+### 3D Graphics
+
+- Three.js
+- React Three Fiber
+- Drei
+
+### Physics
+
+- Rapier Physics
+
+### Animation
+
+- GSAP
+- Framer Motion
+
+### Computer Vision
+
+- MediaPipe Hands
+- TensorFlow.js
+- OpenCV.js *(optional)*
+
+### Utilities
+
+- Zustand
+- React Hooks
+
+---
+
+# 🚀 Roadmap
+
+- [x] Project setup
+- [ ] Landing page
+- [ ] Image upload
+- [ ] Object segmentation
+- [ ] AI LEGO generation
+- [ ] 3D rendering
+- [ ] Brick snapping
+- [ ] Hand tracking
+- [ ] Physics engine
+- [ ] Explosion mode
+- [ ] Photo mode
+- [ ] Multiplayer
+- [ ] Mobile support
+
+---
+
+# 📂 Project Structure
 
 ```
 src/
-  components/
-    three/        # LegoScene, LegoBrick, BrickField, FloatingBricks
-    ui/           # (extend here: HUD, TooltipSystem, etc.)
-    hand/         # (extend here: MediaPipe hand tracking)
-  pages/          # HomePage, ProcessingPage, AssemblyPage, FreePlayPage
-  store/          # useAppStore (Zustand)
-  systems/        # (extend: physics, audio, export)
-  utils/          # voxelizer.ts — image → BrickData[]
-  types/          # shared TypeScript interfaces
+
+├── assets/
+├── components/
+├── hooks/
+├── pages/
+├── physics/
+├── systems/
+├── three/
+├── utils/
+├── vision/
+└── workers/
 ```
 
-## Extending
+---
 
-- **Hand tracking**: add MediaPipe in `src/components/hand/HandTracker.tsx`, emit `pinch` / `hover` events to the store
-- **Physics**: add `@react-three/rapier` to `BrickField` for real rigid-body stacking
-- **Export**: add a `photoMode.ts` system that renders the scene to a PNG via `gl.render()` + `toDataURL()`
-- **Audio**: add Howler.js to `src/systems/audio.ts`, trigger on brick snap
+# 🎯 Future Ideas
+
+- Multi-image 3D scanning
+- Export LEGO instructions as PDF
+- Multiplayer building
+- Custom LEGO themes
+- AR mode
+- Save & share creations
+- Daily build challenges
+- Community gallery
+
+---
+
+# 💡 Inspiration
+
+LegoItUp combines inspiration from
+
+- LEGO Builder
+- Adobe Aero
+- Apple Vision Pro interactions
+- Modern WebGL experiences
+- AI-powered computer vision
+- Interactive digital art
+
+while creating an entirely new way to build digital LEGO creations.
+
+---
+
+# ⚙️ Installation
+
+```bash
+git clone https://github.com/manyahhh07/LegoItUp.git
+
+cd LegoItUp
+
+npm install
+
+npm run dev
+```
+
+---
+
+# 🤝 Contributing
+
+Contributions, ideas, and feature suggestions are always welcome.
+
+Feel free to open an issue or submit a pull request.
+
+---
+
+# 📜 License
+
+This project is licensed under the MIT License.
+
+---
+
+<div align="center">
+
+### ⭐ If you like this project, consider giving it a star!
+
+**Made with ❤️ by Manya Singh**
+
+</div>
